@@ -1,23 +1,3 @@
-// Include Handlebars.js and page.js libraries in your project.
-
-// Define your Handlebars templates (loaded in your HTML).
-
-// Define route handlers and render functions for each route.
-// page('/', () => renderTemplate('home'));
-// page('/about', () => renderTemplate('about'));
-// page('/projects', () => renderTemplate('projects'));
-// page('/contact', () => renderTemplate('contact'));
-
-// // Set a default route.
-// page();
-
-// // Function to render Handlebars templates.
-// function renderTemplate(templateId) {
-//     const templateSource = document.getElementById(`${templateId}-template`).innerHTML;
-//     const template = Handlebars.compile(templateSource);
-//     document.getElementById('content').innerHTML = template();
-// }
-
 // Initially hide the specified paragraphs
 const hiddenParagraphs = document.querySelectorAll(".about-paragraph[style='display: none;']");
 

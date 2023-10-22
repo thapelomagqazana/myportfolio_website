@@ -196,7 +196,11 @@ nav {
 }
 
 /* Change the icon color on hover */
-a i:hover {
+a i.fas:hover {
+    color: white; /* Change to the color you prefer */
+}
+
+a i.fab:hover {
     color: white; /* Change to the color you prefer */
 }
 
