@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Developer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                Thapelo
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="scroll-link" data-target="about">About</a></li>
+                <li><a href="#projects" class="scroll-link" data-target="projects">Projects</a></li>
+                <li><a href="#contact" class="scroll-link" data-target="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Hi, I am Thapelo Magqazana <i class="far fa-smile"></i></h1>
+            <p>Software Developer</p>
+            <!-- Icon container inside the hero section -->
+            <div class="icon-container">
+                <i class="fab fa-java"></i>
+                <i class="fab fa-python"></i>
+                <i class="fas fa-database"></i>
+                <i class="fab fa-docker"></i>
+                <i class="fab fa-gitlab"></i>
+                <i class="fas fa-vial"></i>
+                <i class="fas fa-code"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+    <div class="about-content">
+        <div class="about-image">
+            <img src="styles/images/thapelo-magqazana-thmagqa022.jpg" alt="Thapelo's Photo" class="profile-image">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p class="about-paragraph" style="display: none;">
+                A passionate software developer on a mission to create clean, efficient, and innovative solutions. My journey started with the realization that code has the power to solve real-world problems, driving my constant thirst for knowledge and skill improvement.
+            </p>
+            <p class="about-paragraph" style="display: none;">
+                I'm particularly drawn to the creative aspects of software development, where every line of code is an opportunity to craft elegant solutions and provide value to users. Whether it's debugging, optimizing performance, or crafting new features, I tackle challenges with a meticulous and detail-oriented mindset.
+            </p>
+            <p class="about-paragraph" style="display: none;">
+                Beyond coding, I explore the latest technologies, read tech blogs, and collaborate on exciting projects. I'm open to learning and eager to contribute to the tech community. My journey is about continuous improvement and reaching new heights in the software development world.
+            </p>
+            <p class="about-paragraph" style="display: none;">
+                Feel free to explore my portfolio and connect with me. I'd love to discuss how we can collaborate to achieve our coding goals.
+            </p>
+            <button id="toggleButton">Read More</button>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project" data-github-link="https://github.com/thapelomagqazana/bookr2">
+                <h3>Project 1: Web App Development</h3>
+                <p>
+                    Book Review Web App: Users can sign up, log in, and share book reviews. Built with Django 4.0 (Python 3.8) on the backend and React 16 on the frontend for an interactive experience.
+                </p>
+            </div>
+            <div class="project" data-github-link="https://github.com/thapelomagqazana/alien_invasion_java">
+                <h3>Project 2: Game Development</h3>
+                <p>
+                    Alien Invasion 2D Space Shooter: Defend Earth in this thrilling game. Control a rocket ship, battle aliens, and avoid their projectiles. Features dynamic gameplay, challenging levels, and a scoring system.
+                </p>
+            </div>
+            <div class="project" data-github-link="https://github.com/thapelomagqazana/Git-Account-Switcher">
+                <h3>Project 3: Git Configuration Tool</h3>
+                <p>
+                    A Python script for efficient Git account switching and committing with built-in tests. 
+                </p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+    
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>
+                You can reach me at: <a href="mailto:thmagqa022@student.wethinkcode.co.za"><i class="fas fa-envelope"></i></a>
+            </p>
+            <p>
+                Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/thapelo-magqazana-90632a174" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 Thapelo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
